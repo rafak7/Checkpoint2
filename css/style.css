@@ -125,7 +125,7 @@ body {
       height: 40px;
     }
   
-  /*    nav ul {
+    head nav ul {
       display: none;
       position: absolute;
       top: 100%;
@@ -134,7 +134,7 @@ body {
       padding: 1rem;
       background-color: #f8f9fa;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    }*/
+    }
   
     nav li {
       margin: 0;
@@ -147,17 +147,7 @@ body {
       padding: 0.5rem 0;
     }
   
-   /* nav a:hover {
+     nav a:hover {
       background-color: transparent;
     }
   
-   /* #menu-toggle {
-        display: block;
-        position: absolute;
-        top: 0.5rem;
-        right: 0.5rem;
-        padding: 0.5rem;
-        font-size: 1.5rem;
-        color: #333;
-        cursor: pointer;
-    }
