@@ -89,7 +89,7 @@ body {
   
   /* Estilos do rodapé */
   
-  footer {
+  .roda_pe {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,43 +97,34 @@ body {
     background-color: #f8f9fa;
   }
   
-  footer h2 {
+  .roda_pe h2 {
     margin: 0;
   }
   
-  footer nav ul {
+  .roda_pe nav ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
   }
   
-  footer nav a {
+  .roda_pe nav a {
     display: flex;
     align-items: center;
-    margin-right: 1rem;
+    margin-right: 0,5rem;
   }
   
-  footer nav img {
+  .roda_pe nav img {
     height: 30px;
+
   }
+  
   
   /* Estilos responsivos */
   
   @media (max-width: 768px) { 
     }header img {
       height: 40px;
-    }
-  
-    head nav ul {
-      display: none;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      right: 0;
-      padding: 1rem;
-      background-color: #f8f9fa;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     }
   
     nav li {
@@ -150,4 +141,5 @@ body {
      nav a:hover {
       background-color: transparent;
     }
+    
   
