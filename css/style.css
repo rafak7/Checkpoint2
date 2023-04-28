@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .cabecario a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Estilos do cabeçalho */
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color:  #d3d1d1de;
+  }
+  
+  header img {
+    height: 50px;
+  }
+  
+  .logo {
+    border: solid 2px rgb(211, 15, 89);
+    border-radius: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cabecario nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cabecario nav li:not(:last-child) {
+    margin-right: 1rem;
+  }
+  
+  .cabecario nav a {
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+   .cabecario  a:hover {
+    background-color:  rgb(89, 88, 88);
+  }
+  
+  /* Estilos do conteúdo */
+  
+  section {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  article {
+    margin: 1rem;
+    min-width: 300px;
+    max-width: 400px;
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  article h2 {
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  article figure {
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  article img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  article figcaption {
+    text-align: center;
+  }
+  
+  /* Estilos do rodapé */
+  
+  .roda_pe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color:   #d3d1d1de;
+    margin-top: 20%;
+    
+  }
+  
+  .roda_pe h2 {
+    margin: 0;
+  }
+  
+  .roda_pe nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .roda_pe nav a {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  
+  .roda_pe nav img {
+    height: 30px;
+
+  }
+  
+  
+  /* Estilos responsivos */
+  
+  @media (max-width: 768px) { 
+    }header img {
+      height: 40px;
+     flex-direction: column;
+    }
+    
+    header nav {
+      flex-wrap: nowrap;
+   }
+
+   header a {
+      font-size: 2ems;
+   }
+  
+    nav li {
+      margin: 0;
+      text-align: center;
+    }
+  
+    nav a {
+      display: inline-block;
+      width: 100%;
+      padding: 0.5rem 0;
+    }
+  
+     .roda_pe a:hover {
+      background-color:  #f8f9fa;
+    }
+    
+    .imagem{
+      width: 250px;
+      height: 200px;
+      display: flex;
+      position: center;
+      padding: 0px 30px;
+      justify-content: space-between;
+    } 
