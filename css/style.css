@@ -28,6 +28,14 @@ body {
     height: 50px;
   }
   
+  .logo {
+    border: solid 2px rgb(211, 15, 89);
+    border-radius: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
   nav ul {
     display: flex;
     list-style: none;
@@ -111,7 +119,7 @@ body {
   .roda_pe nav a {
     display: flex;
     align-items: center;
-    margin-right: 0,5rem;
+    margin-right: rem;
   }
   
   .roda_pe nav img {
