@@ -120,12 +120,12 @@ body {
   
   /* Estilos responsivos */
   
-  @media (max-width: 768px) {
+  @media (max-width: 768px) { 
     }header img {
       height: 40px;
     }
   
-    nav ul {
+  /*    nav ul {
       display: none;
       position: absolute;
       top: 100%;
@@ -134,7 +134,7 @@ body {
       padding: 1rem;
       background-color: #f8f9fa;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    }
+    }*/
   
     nav li {
       margin: 0;
@@ -147,11 +147,11 @@ body {
       padding: 0.5rem 0;
     }
   
-    nav a:hover {
+   /* nav a:hover {
       background-color: transparent;
     }
   
-    #menu-toggle {
+   /* #menu-toggle {
         display: block;
         position: absolute;
         top: 0.5rem;
