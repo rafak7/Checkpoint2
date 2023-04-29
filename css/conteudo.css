@@ -1,0 +1,79 @@
+.conteudo {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ 
+  }
+
+  .conteudo-tit {   
+    padding: 2rem;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+
+  }
+  
+  .card {
+    margin: 1rem;
+    padding: 2rem;
+    min-width: 300px;
+    max-width: 400px;
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h2 {
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  .card figure {
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: 25%;
+    width: 25%; 
+  }
+
+  .card2 img{
+    max-width: 50%;
+    width: 20%; 
+  }
+  .card2 {
+    margin: 2rem;
+    padding: 2rem;
+    min-width: 600px;
+    max-width: 700px;
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+ 
+
+  }
+
+  .card2 figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+figcaption {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    
+
+  }

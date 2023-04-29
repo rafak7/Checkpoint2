@@ -1,0 +1,32 @@
+.roda_pe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color:   #d3d1d1de;
+    margin-top: 25% ;  
+  }
+
+.roda_pe nav ul {
+    display: flex;
+    list-style: none;
+  }
+
+.roda_pe a:hover {
+    text-decoration: none;
+    background-color:  #f8f9fa;
+    
+  }
+.roda_pe nav a {
+    display: flex;
+    margin-right: 1rem;
+    padding:  0.5rem;
+    border-radius: 1rem;
+    transition: background-color 0.2s ease-in-out;
+
+  }
+  
+.roda_pe nav img {
+    height: 30px;
+
+  }
