@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -17,7 +18,7 @@ body {
   
   /* Estilos do cabeçalho */
   
-  header {
+  .cabecario {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +26,7 @@ body {
     background-color:  #d3d1d1de;
   }
   
-  header img {
+  .cabecario img {
     height: 50px;
   }
   
@@ -33,15 +34,11 @@ body {
     border: solid 2px rgb(211, 15, 89);
     border-radius: 7%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
   
   .cabecario nav ul {
     display: flex;
     list-style: none;
-    margin: 0;
-    padding: 0;
   }
   
   .cabecario nav li:not(:last-child) {
@@ -60,8 +57,8 @@ body {
   }
   
   /* Estilos do conteúdo */
-  
-  section {
+   
+  .conteudo {
     margin: 2rem;
     display: flex;
     justify-content: center;
@@ -87,9 +84,11 @@ body {
     padding: 1rem;
   }
   
-  article img {
+  .conteudo img {
     max-width: 100%;
-    height: auto;
+    height: 25%;
+    width: 25%;
+    display: inline-block;
   }
   
   article figcaption {
@@ -107,7 +106,10 @@ body {
     margin-top: 20%;
     
   }
-  
+  .roda_pe {
+    
+  }
+
   .roda_pe h2 {
     margin: 0;
   }
