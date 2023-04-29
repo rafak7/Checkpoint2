@@ -25,6 +25,13 @@
     border-radius: 0.25rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
+
+
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
   
 .card h2 {
   margin: 0;
@@ -67,11 +74,14 @@
     align-items: center;
   }
   
+
+.card figcaption {
   
   figcaption {
+
     margin: 0;
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     color: #333;
     text-align: center;
     
