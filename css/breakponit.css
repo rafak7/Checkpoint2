@@ -1,0 +1,17 @@
+@media(max-width:630px  ){
+    .cabecario{
+       flex-direction: column;
+ }
+    .cabecario nav {
+       flex-wrap: nowrap;
+    }
+ 
+    .cabecario a {
+       font-size: 2ems;
+    }
+    .logo{        
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
