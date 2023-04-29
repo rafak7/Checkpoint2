@@ -9,7 +9,7 @@
     .cabecario a {
        font-size: 2ems;
     }
-    .logo{        
+    .logo a{        
         display: flex;
         align-items: center;
         justify-content: space-around;
